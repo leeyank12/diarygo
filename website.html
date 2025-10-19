@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DiaryGo - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:url('https://hanoispiritofplace.com/wp-content/uploads/2018/04/hinh-nen-may-tinh-99.jpg');
+      color: #080808;
+    }
+
+    /* Header */
+    .header {
+      display :flex;
+      background:whitesmoke;
+      color: rgb(248, 155, 33);
+      text-align:left;
+      padding: 40px;
+    }
+    .head2{
+      display :flex;
+    
+      color: rgb(15, 16, 6);
+      text-align:center;
+      padding: 20px;
+      text-align: center;
+      font-family:lucida;
+      white-space: narowrap;
+       background: linear-gradient(to right, #fdf6e3, #fff);
+      font-weight: 100;
+      font-display:auto;
+        border-top: 2px solid #d4af37;
+  border-bottom: 2px solid #d4af37;
+  font-size:xx-large ;
+  animation:moveBanner 
+    }
+    @keyframes moveBanner {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.h2{
+  font-size:xx-large;
+  font-weight: 300;
+  background: linear-gradient(to left,violet,
+            indigo, blue, green, yellow, orange, red);
+    		-webkit-background-clip: text;
+    		color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    .header h1 {
+      margin: 0;
+      font-size: 39px;
+      border-bottom: 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .header p {
+      margin: 5px 0 0;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    /* Slideshow */
+    /*.slideshow {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }*/
+    
+    .slideimg {
+      
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-bottom: 30px;
+      width: 1500px;
+      height: 550px;
+      object-fit:contain;
+      margin-bottom: 45px;
+      padding:0px;
+      margin:0;
+
+    }
+    /*
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      25% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      100% { transform: translateX(0%); }
+    }
+
+    /* Subscription section */
+    .subscription {
+      background: #f6f5f5f4;
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(220, 44, 193, 0.718);
+      margin-top:30px;
+    }
+    .tag
+    {
+      text-align: center;
+    }
+
+    /* Products */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      padding: 20px;
+      border: radius 20px;
+      background: powderblue;
+    }
+    .card {
+      background:beige;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(194, 234, 50, 0.1);
+      padding: 15px;
+      text-align: center;
+      transition: 0.3s;
+      
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+   
+    }
+    .price {
+      font-weight: bold;
+      color: #28a745;
+      margin: 8px 0;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor:pointer;
+    }
+    button:hover {
+      background: #218838;
+    }
+
+    /* About Section */
+    .about {
+      padding: 30px;
+      text-align: center;
+      background: #e3f2fd;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+.img{
+  object-fit: cover;
+  width:1525px;
+  height:530px;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background-color: azure;
+}
+    /* Contact Section */
+    .contact {
+      padding: 20px;
+      text-align: center;
+      background: #0077b6;
+      color: white;
+      margin-top: 20px;
+    }
+    .fam{
+      height:x;
+      display:flex;
+    }
+    .img2{
+      color:aliceblue;
+      height:350px;
+      border-top:10px;
+      border-radius: 20px;
+     
+      background-color: color-mix( red 10%, blue 20%);
+    }
+    .descr
+    { 
+      text-align: left;
+      font-size: 6rem;
+      font-weight:600;
+ border:2px solid blueviolet;
+ background-color: hsla(84, 77%, 46%, 0.284);
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .div2{
+      display:flex;
+      font-family: 'Courier New', Courier, monospace;
+      
+    }
+    .info{
+      background:orchid;
+      border-radius: 1px;
+      border-top: 20px;
+      display:flex;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div>
+    <h1>DiaryGo</h1>
+    <p><i>Nature's Goodness</i></p> 
+  </div>
+  </div>
+<div class="head2"><marquee> Start the day with  the taste of Natures gift.!Order Now .Build the day.</marquee>
+  </div>
+  <!-- Slideshow -->
+    <div class="slideimg">
+ <img src="https://vagabondtoursofireland.com/images-adventures/blog/farming/farmer-farming-cattle-cows-green-field-ireland.jpg?w1366;h769;" class ="img" alt="Seller 3">   </div>
+</body></div>
+  <!-- Subscription Section -->
+  <div class="subscription">
+    <h2 class="h2">🛒 Take a subscription and get delivery earlier every morning! 🌅</h2>
+    <h3> <b> pay Rs.199 to get 50ml extra per week and special orders</b></h3>
+  </div>
+
+  <!-- Products Section -->
+   <div class="products" > 
+       <p> DESI PRODUCTS:</p>
+ </div>
+  <div class="products">
+    <div class="card">
+      <img src="https://static.vecteezy.com/system/resources/previews/030/674/025/large_2x/product-shots-of-milk-high-quality-4k-ultra-hd-h-free-photo.jpg"  alt="Milk">
+      <h3>Fresh Milk</h3>
+      <p>1 Liter</p>
+      <div class="price">₹50</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://cdn.ibcstack.com/article/ef16833c-0100-4d80-8f32-e2681766f856/21-617e2953dc272.webp" alt="Milk">
+      <h3>Curd</h3>
+      <p>250gm</p>
+      <div class="price">₹20</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://c.ndtvimg.com/2019-04/n2q67ooo_lassi_625x300_15_April_19.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350" alt="lassi">
+      <h3>Lassi</h3>
+      <p>500ml</p>
+      <div class="price">₹40</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src=" https://www.indianveggiedelight.com/wp-content/uploads/2023/01/masala-chaas-featured.jpg" alt="butter milk">
+      <h3>Butter Milk</h3>
+      <p>500 ml</p>
+      <div class="price">₹30</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/296881078/GB/SO/PX/35097522/pure-cow-ghee-500x500.png" alt="Ghee">
+      <h3>Pure Ghee</h3>
+      <p>200 gms</p>
+      <div class="price">₹150</div>
+      <button>Add to Cart</button>
+    </div class="info">
+    <div class="div2 ">
+      <div class="descr"> <p > OUR FAMILY IS HERE FOR YOU</p>
+      </div> 
+        <div class="div2"> <p>Eveery one from our team</p></div>
+
+       <img src=" https://www.internationalrelationsedu.org/wp-content/uploads/2017/12/humanitarian-group.jpg" class="img2" >
+    </div>
+    </div>
+
+  <!-- Contact Section -->
+  <div class="contact">
+    <h3>📞 Connect With Us</h3>
+    <p>Email: support@diarygo.com | Phone: +91 98765 43210</p>
+    <p>Follow us on Instagram & Facebook for offers and updates!</p>
+  </div>
+  
+
+</body>
+</html>

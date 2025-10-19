@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DiaryGo - Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image:url("https://wallpaperaccess.com/full/1607283.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 320px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background: #4facfe;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #00c6ff;
+    }
+    a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    .container2
+    {
+      font-size: medium;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          text-align: center;
+      text-decoration-line: overline;
+    }
+  </style>
+  
+</head>
+<body>
+ 
+  <div class="container">
+     <div class="container2">
+    <h3> WELCOME TO DIARY GO...</h3>
+  </div> 
+    <h2>Create Account</h2>
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <input type="password" id="p1" placeholder="Password">
+    <input type="password" id="p2" placeholder="Confirm Password">
+    <button onclick=" verify()">Register</button>
+    <a href="login.html">Already have an account? Login</a>
+  </div>
+<script>
+  function verify(){
+let k=document.getElementById("p1").value;
+let m=document.getElementById("p2").value;
+if(k==="" || m==="")
+{
+  alert("please fill the password.!");
+
+}
+ if(k!=m)
+{
+  alert("passwords doesnot match!")
+}
+ else if(k.length<8)
+{
+  alert("password should be more than 8 charachters.!")
+}
+
+  }
+  </script>
+  
+</body>
+</html>
